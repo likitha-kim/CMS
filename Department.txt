@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Department</title>
+    </head>
+    <body>
+        <label for="Department">Select an option:</label>
+<select id="Department">
+  <option value="" selected disabled hidden>Choose an option</option>
+  <option value="option 1">IS/BG</option>
+  <option value="option 2">NETWORK & CYBER SECURITY</option>
+  <option value="option 3"></option>
+</select>
+
+    </body>
+</html>
+
+
+

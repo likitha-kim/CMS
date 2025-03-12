@@ -1,0 +1,176 @@
+<html>
+    <head>
+        <title>About</title>
+    </head>
+    <style>
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Centering the Page */
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 200vh;
+            background-color: #ffffff;
+        }
+
+        /* Logo Styling */
+        .logo-container img {
+            width: 400px;
+            height: 250px;
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 15px 20px;
+            background:  rgb(8, 145, 236);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 160;
+        }
+
+        .navtar a {
+            font-size: 16px;
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        /* Form Box */
+        .form-box {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 10px;
+            width: 350px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 80px;
+        }
+
+        .input-box {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .input-box input {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        /* Button Styling */
+        button {
+            padding: 10px;
+            width: 100%;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Register Link */
+        .register-link {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        .register-link a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .register-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <body>
+        <div-class="logo-container">
+            <img src="C:\Users\sabee\OneDrive\Pictures\Saved Pictures\bel image.jpg" alt="bel logo">
+        </div-class>
+        
+    <h3>INFO</h3>
+    <p>Bharat Electronics Limited was established at Bangalore,India. By the Government of India
+        under the Ministry of Defence in 1954 to meet the specialised electronic needs of the Indian defence services.
+        Over the years, it has grown into a multi-product, multi-technology, multi-unit company
+        serving the needs of customers in diverse fields in India and abroad.</p>
+        <body>
+            <div-class="image-container">
+           
+            <div class="image-template">
+                <img src="C:\Users\sabee\Downloads\bel imag1" alt="Image Template">
+                
+                <div class="image-overlay">
+                  <h2>VISION</h2>
+                  <p> 
+                    To be a world class enterprise in professional Electronics
+                <h2>MISSION</h2>
+                To be a customer focused, globally competitive company in defence 
+                electronics and in other chosen areas of professional electronics,
+                through quality, technology and innovation.
+                <h2>VALUES</h2>
+               <p> -- Working with transparency, honesty & integrity. </p>
+               <p>-- Trusting ang respecting individuals.</p>
+                <p>-- Striving to achieve high employee satisfaction.</p>
+               <p> -- Fostering team work.</p>
+                </p>
+                </div>
+              </div>
+
+             <style> 
+             {
+                 margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+              .image-template {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 500px;
+                height: 300px;
+                border: 1px solid #ddd;
+              }
+              
+              .image-template img {
+                width: 300%;
+                height: 100%;
+                object-fit: cover;
+              }
+              
+              .image-overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 99%;
+                background-color: rgba(0, 0, 0, 0.5);
+                color: #fff;
+                padding: 20px;
+                display: none;
+              }
+              .image-template:hover .image-overlay {
+                display: block;
+              }
+              
+           </style>
+            </div-class>
+        </body>
